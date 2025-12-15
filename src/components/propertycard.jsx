@@ -25,7 +25,9 @@ function Card({id, image, description, price, baths, beds, onViewDetails}){
                     <p className='NUMBD'>{beds}bd</p>
                 </div>
             </div>
-            <button className='VPBTN' onClick={() => onViewDetails(id)}>Check out</button>
+            <div className='VPBTND'>
+                <button className='VPBTN' onClick={() => onViewDetails(id)}>Check out</button>
+            </div>
         </div>
         </>
     )

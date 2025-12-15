@@ -10,7 +10,7 @@ const properties = [
     {
         id: 1,
         image: PropertyImage1,
-        description: "Luxury Duplex - 304 Victoria Court, Lekki Phase 1, Lagos",
+        description: "Luxury Duplex - 304 Lekki Phase 1, Lagos",
         type: "Rent",
         price: 25000,
         baths:3,
@@ -19,7 +19,7 @@ const properties = [
     {
         id: 2,
         image: PropertyImage2,
-        description: "Spacious Villa - Plot 18B, Amadi Close, Wuse 2, Abuja FCT",
+        description: "Spacious Villa - Plot 18B, Amadi Close, Abuja",
         type: "Sale",
         price: 950000,
         baths:7,

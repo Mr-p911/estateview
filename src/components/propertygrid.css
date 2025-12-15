@@ -15,9 +15,6 @@
     justify-content: center;
 }
 @media(min-width: 768px){
-    .div{
-        padding-bottom: 50px;
-    }
     .PGCON{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -28,11 +25,8 @@
     }
 }
 @media(min-width: 1024px){
-    .div{
-        padding-bottom: 50px;
-    }
     .PGCON{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr ;
         justify-content: center;
     }
 }

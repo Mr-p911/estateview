@@ -1,8 +1,7 @@
 .GCON{
     background-color: #F5F5F5;
-    width: 350px;
-    height: 620px;
-    margin-top: 15px;
+    margin: 15px 10px 0px 10px;
+    height: 580px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
@@ -10,8 +9,8 @@
 }
 .FIMG{
     height: 350px;
-    width: 300px;
-    margin: 25px;
+    width: 90%;
+    padding:20px
 }
 .PADD{
     margin-left: 10px;
@@ -23,13 +22,13 @@
     margin-bottom: 0px;
 }
 .PP{
-    margin-left: 40px;
+    margin-left: 10px;
     font-size: 20px;
     font-weight: bold;
     color: gold;
 }
 .BRICN{
-    margin: 0px;
+    margin-left: 80px;
 }
 .NUMBR{
     margin: 0px;
@@ -47,7 +46,7 @@
     margin-left: 40px;
 }
 .BDICN{
-    margin-top: 5px;
+    margin-top: 2px;
 }
 .NUMBD{
     margin-top: 0px;
@@ -59,11 +58,15 @@
     margin-top: 20px;
     margin-left: 20px;
 }
+.VPBTND{
+    display: flex;
+    justify-content: center;
+}
 .VPBTN{
     width: 130px;
     height: 50px;
     font-size: 18px;
-    margin-left: 110px;
+    justify-content: center;
     background-color: #FF9900;
     border: 2px solid transparent;
     border-radius: 7px;
@@ -77,30 +80,58 @@
 }
 @media(min-width: 768px){
     .GCON{
-        margin-left: 30px;
+        width: 90%;
+        margin: initial;
+        margin:10px 0px 10px 20px ;
+    }
+    .BDICN{
+        margin-top: 5px;
+    }
+    .BRICN{
+        margin:initial;
+        margin-left: 40px;
+    }
+    .BRICN.Sale{
+        margin-left: 10px;
     }
 }
 @media(min-width:1024px){
     .GCON{
-        width: 420px;
         margin-top: 20px;
-        margin-left: 0px;
+        margin-left: 10px;
     }
     .GCON:hover{
         transform: translateY(-8px);
         box-shadow: 0 20px 45px rgba(0, 0, 0, 0.5);
     }
     .FIMG{
-        width: 370px;
+        width: 100%;
+        padding: 0px;
+        padding-bottom: 15px;
     }
     .PADD{
         font-size: 20px;
     }
-    .BRICNNUMBR{
-        margin-left: 100px;
+    .PP{
+        margin: 0px;
+        margin-top: 22px;
+        margin-left: 5px;
+    }
+    .BRICN{
+        margin-top: 4px;
+        margin-left: 0px;
+    }
+    .BDICN{
+        margin-top: 8px;
     }
     .VPBTN{
-        margin-left: 140px;
+        text-align: center;
+    }
+    .NUMBD{
+        margin-top: 3px;
+    }
+    .NUMBR{
+        margin-top: 3px;
     }
 }
 
