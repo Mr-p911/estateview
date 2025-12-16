@@ -77,9 +77,6 @@
     .FHOME{
         margin-top: 0px;
     }
-    .FHOME,.FBUY,.FRENT,.FAGENTS,.FGUIDE,.FSOC{
-    
-    }
     .FooterLinks{
         display: grid;
         grid-template-columns: 100px 400px 1fr 1fr;
