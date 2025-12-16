@@ -1,11 +1,11 @@
 .GCON{
     background-color: #F5F5F5;
-    margin: 15px 10px 0px 10px;
+    margin: 10px 10px 0px 10px;
     height: 580px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
-    overflow: visible;
+    overflow: hidden;
 }
 .FIMG{
     height: 350px;
@@ -28,7 +28,7 @@
     color: gold;
 }
 .BRICN{
-    margin-left: 80px;
+    margin-left: 30px;
 }
 .NUMBR{
     margin: 0px;
