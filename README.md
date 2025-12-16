@@ -10,3 +10,5 @@ EstateView is a sleek, modern, and responsive front-end application designed to 
 * **Property Modal:** View detailed information (description, baths, beds) for any property in a clean, overlay modal.
 * **Component-Based:** Organized structure using reusable React components (Header, Navigation,  Card, Grid, Footer).
 * **Modern Styling:** Utilizes CSS3 for a clean, professional aesthetic.
+
+  **Live demo link:** https://estateview-ths7.vercel.app
