@@ -5,7 +5,6 @@
 .FTLOGO{
     width: 150px;
     margin-top: 10px;
-    display: inline-block;
 }
 .IMGD{
     text-align: center;
@@ -37,7 +36,7 @@
 .FHOME{
     margin-top: 30px;
 }
-.FHOME,.FBUY,.FRENT,.FAGENTS,.FGUIDE,.FSOC{
+.FHOME,.FBUY,.FRENT,.FAGENTS,.FGUIDE,.FSOC,.LNK{
     color: white;
 }
 .FooterLinks{
@@ -58,15 +57,32 @@
     font-size: 20px;
     text-align: center;
 }
+.LNK{
+    display: none;
+}
 @media(min-width:1024px){
-    .IMGD{
-        display: inline-block;
+    .FLEX{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
     }
-    .TXTAINP{
-        display: inline-block;
+    .LNK{
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        margin:initial;
+        font-weight: 700;
     }
-    .SUBTXT{
-        margin: 0px;
-        
+    .FHOME{
+        margin-top: 0px;
+    }
+    .FHOME,.FBUY,.FRENT,.FAGENTS,.FGUIDE,.FSOC{
+    
+    }
+    .FooterLinks{
+        display: grid;
+        grid-template-columns: 100px 400px 1fr 1fr;
+        margin-top: 30px;
     }
 }
