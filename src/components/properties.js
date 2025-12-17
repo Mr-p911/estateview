@@ -21,7 +21,7 @@ const properties = [
         image: PropertyImage2,
         description: "Spacious Villa - Plot 18B, Amadi Close, Abuja",
         type: "Sale",
-        price: 950000,
+        price: 1950000,
         baths:7,
         beds: 6,
     },
